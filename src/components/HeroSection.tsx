@@ -24,9 +24,59 @@ const HeroSection = () => {
             <div className="flex items-center space-x-2">
               {/* Logo */}
               <img src="/images/logooficial.webp" alt="https://consulbank.com.ve" className="h-12 w-auto" />
-
-              
             </div>
+             {/* Redes Sociales */}
+            <div className="flex justify-center w-full md:w-auto">
+              <div className="flex space-x-3">
+                <a 
+                  href="https://twitter.com/consulbank"  
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-center justify-center h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 transition"
+                  aria-label="Twitter"
+                >
+                  <img src="/images/x.svg" alt="Twitter" className="h-4 w-4" />
+                </a>
+                <a 
+                  href="https://facebook.com/Consulbankve"  
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-center justify-center h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 transition"
+                  aria-label="Facebook"
+                >
+                  <img src="/images/facebook.svg" alt="Facebook" className="h-4 w-4" />
+                </a>
+                <a 
+                  href="https://instagram.com/consulbank"  
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-center justify-center h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 transition"
+                  aria-label="Instagram"
+                >
+                <img src="/images/instagram.svg" alt="Instagram" className="h-4 w-4" />
+              </a>
+                <a 
+                  href="https://wa.me/584143162574"  
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-center justify-center h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 transition"
+                  aria-label="whatsapp"
+                >
+                  <img src="/images/whatsapp.svg" alt="LinkedIn" className="h-4 w-4" />
+                </a>
+                
+                <a 
+                  href="https://linkedin.com/company/consulbank"  
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-center justify-center h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 transition"
+                  aria-label="LinkedIn"
+                 >
+                  <img src="/images/linkedin.svg" alt="LinkedIn" className="h-4 w-4" />
+                </a>
+            </div>    
+         </div>
+            {/* Navigation Links */}
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
               <a href="#inicio" className="text-white/90 hover:text-white transition-colors">Inicio</a>
               <a href="#servicios" className="text-white/90 hover:text-white transition-colors">Servicios</a>
