@@ -1,4 +1,4 @@
-import { Clock, AlertTriangle, TrendingDown, FileText, CheckCircle, Zap, Shield, BarChart } from "lucide-react"
+import { Clock, AlertTriangle, TrendingDown, FileText, CheckCircle, Zap, Shield, BarChart  } from "lucide-react"
 
 const ProblemSolution = () => {
   return (
@@ -74,8 +74,8 @@ const ProblemSolution = () => {
               </div>
             </div>
 
-            <div className="bg-gray-100 p-6 rounded-lg">
-              <h4 className="font-bold text-gray-800 mb-3">Impacto Económico</h4>
+            <div className="bg-gray-100 p-6 rounded-lg ">
+              <h4 className="font-bold text-gray-800 mb-11">Impacto Económico</h4>
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div className="bg-white p-4 rounded">
                   <div className="text-2xl font-bold text-red-600">€250K</div>
@@ -142,6 +142,32 @@ const ProblemSolution = () => {
                       </p>
                     </div>
                   </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="flex-shrink-0 w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                      <Shield className="h-5 w-5 text-green-600" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-green-800"> Soluciones Especializadas</h4>
+                      <p className="text-green-700 text-sm mt-1">
+                        Somos especialistas en una amplia gama de sistemas bancarios centrales, incluyendo IBS, Paradise y SIAF.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="flex-shrink-0 w-8 h-8 bg-green-100 rounded-full flex items-center justify-center">
+                      <Zap className="h-5 w-5 text-green-600" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-green-800"> Integración de switches</h4>
+                      <p className="text-green-700 text-sm mt-1">
+                        Contamos con una extensa trayectoria en la conexión con diversos switches transaccionales como Postilion, Catus y Catsw.
+                      </p>
+                    </div>
+                  </div>
+
+                  
                 </div>
               </div>
             </div>

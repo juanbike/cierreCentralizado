@@ -117,7 +117,7 @@ const HeroSection = () => {
               </h1>
               
               <p className="text-xl text-blue-100 leading-relaxed max-w-xl">
-                Es una tecnología avanzada para el procesamiento centralizado de millones de transacciones que permite la liquidación y compensación de operaciones financieras entre múltiples bancos y redes, principalmente transacciones de los canales ATM, P2P, P2C de manera eficiente y segura a través de un sistema interbancario.
+                Una tecnología de vanguardia para el procesamiento centralizado de vastas cantidades de transacciones, facilita la liquidación y compensación eficiente y segura de operaciones financieras entre diversos bancos y redes. Su aplicación principal radica en la gestión de transacciones de canales ATM, P2P y P2C a través de un sistema interbancario.
               </p>
 
               <div className="flex flex-wrap gap-4 text-sm text-blue-200">

@@ -1,0 +1,9 @@
+{
+  "greeting": "Hello, world!",
+  "welcome": "Welcome to my application.",
+  "dashboard": {
+    "title": "Dashboard",
+    "users": "Users"
+  },
+  "footer": "All rights reserved © {{year}}"
+}

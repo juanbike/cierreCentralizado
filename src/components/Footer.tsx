@@ -166,6 +166,18 @@ const Footer = () => {
                   <p className="text-gray-300 text-sm font-medium">Movil</p>
                   <p className="text-gray-400 text-sm">+58 0414 316 2574</p>
                   <p className="text-gray-400 text-sm">Contacto: Luis Rigual</p>
+                  <p className="text-gray-400 text-sm">Mi Whatsapp</p>
+                  <a 
+                  
+                  href="https://wa.me/584143162574"     
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-center justify-center h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 transition"
+                  aria-label="WhatsApp"
+                >
+                  <img src="/images/whatsapp.svg" alt="WhatsApp" className="h-4 w-4" />
+                </a>
+                
                 </div>
               </div>
 
@@ -173,7 +185,7 @@ const Footer = () => {
                 <Mail className="h-5 w-5 text-blue-400" />
                 <div>
                   <p className="text-gray-300 text-sm font-medium">Email</p>
-                  <p className="text-gray-400 text-sm">info@sistemacc.com</p>
+                  <p className="text-gray-400 text-sm">info@consulbank.com.ve</p>
                 </div>
               </div>
             </div>

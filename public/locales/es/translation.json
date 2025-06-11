@@ -1,0 +1,9 @@
+{
+  "greeting": "¡Hola, mundo!",
+  "welcome": "Bienvenido a mi aplicación.",
+  "dashboard": {
+    "title": "Panel de Control",
+    "users": "Usuarios"
+  },
+  "footer": "Derechos reservados © {{year}}"
+}
