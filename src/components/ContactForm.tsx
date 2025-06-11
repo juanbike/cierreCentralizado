@@ -175,80 +175,81 @@ const ContactForm = () => {
                 </p>
               </div>
 
-              <div className="space-y-4">
-                <div>
-                  <Label htmlFor="fullName" className="text-sm font-medium text-gray-700 flex items-center">
-                    <User className="h-4 w-4 mr-2" />
-                    Nombre completo *
-                  </Label>
-                  <Input
-                    id="fullName"
-                    name="fullName"
-                    type="text"
-                    value={formData.fullName}
-                    onChange={handleChange}
-                    className={`mt-1 ${errors.fullName ? 'border-red-500' : ''}`}
-                    placeholder="Ej: Juan Carlos Rodríguez"
-                  />
-                  {errors.fullName && (
-                    <p className="text-red-500 text-xs mt-1">{errors.fullName}</p>
-                  )}
-                </div>
-
-                <div>
-                  <Label htmlFor="company" className="text-sm font-medium text-gray-700 flex items-center">
-                    <Building className="h-4 w-4 mr-2" />
-                    Empresa *
-                  </Label>
-                  <Input
-                    id="company"
-                    name="company"
-                    type="text"
-                    value={formData.company}
-                    onChange={handleChange}
-                    className={`mt-1 ${errors.company ? 'border-red-500' : ''}`}
-                    placeholder="Ej: Banco Nacional de España"
-                  />
-                  {errors.company && (
-                    <p className="text-red-500 text-xs mt-1">{errors.company}</p>
-                  )}
-                </div>
-
-                <div>
-                  <Label htmlFor="email" className="text-sm font-medium text-gray-700 flex items-center">
-                    <Mail className="h-4 w-4 mr-2" />
-                    Correo electrónico *
-                  </Label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className={`mt-1 ${errors.email ? 'border-red-500' : ''}`}
-                    placeholder="ejemplo@banco.com"
-                  />
-                  {errors.email && (
-                    <p className="text-red-500 text-xs mt-1">{errors.email}</p>
-                  )}
-                </div>
-
-                <div>
-                  <Label htmlFor="phone" className="text-sm font-medium text-gray-700 flex items-center">
-                    <Phone className="h-4 w-4 mr-2" />
-                    Teléfono (opcional)
-                  </Label>
-                  <Input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="mt-1"
-                    placeholder="+34 600 123 456"
-                  />
-                </div>
-              </div>
+              <div className="space-y-6 px-4 py-6 max-w-md mx-auto">
+  {/* Campo: Nombre completo */}
+  <div className="w-full">
+    <Label htmlFor="fullName" className="text-sm font-medium text-gray-700 flex items-center">
+      <User className="h-4 w-4 mr-2 text-gray-500" />
+      <span>Nombre completo *</span>
+    </Label>
+    <Input
+      id="fullName"
+      name="fullName"
+      type="text"
+      value={formData.fullName}
+      onChange={handleChange}
+      className={`w-full mt-1 rounded-lg ${errors.fullName ? 'border-red-500' : 'border-gray-300'} focus:ring-blue-500 focus:border-blue-500`}
+      placeholder="Ej: Juan Carlos Rodríguez"
+    />
+    {errors.fullName && (
+      <p className="text-red-500 text-xs mt-1">{errors.fullName}</p>
+    )}
+  </div>
+  {/* Campo: Empresa */}
+  <div className="w-full">
+    <Label htmlFor="company" className="text-sm font-medium text-gray-700 flex items-center">
+      <Building className="h-4 w-4 mr-2 text-gray-500" />
+      <span>Empresa *</span>
+    </Label>
+    <Input
+      id="company"
+      name="company"
+      type="text"
+      value={formData.company}
+      onChange={handleChange}
+      className={`w-full mt-1 rounded-lg ${errors.company ? 'border-red-500' : 'border-gray-300'} focus:ring-blue-500 focus:border-blue-500`}
+      placeholder="Ej: Banco Nacional de España"
+    />
+    {errors.company && (
+      <p className="text-red-500 text-xs mt-1">{errors.company}</p>
+    )}
+  </div>
+  {/* Campo: Correo electrónico */}
+  <div className="w-full">
+    <Label htmlFor="email" className="text-sm font-medium text-gray-700 flex items-center">
+      <Mail className="h-4 w-4 mr-2 text-gray-500" />
+      <span>Correo electrónico *</span>
+    </Label>
+    <Input
+      id="email"
+      name="email"
+      type="email"
+      value={formData.email}
+      onChange={handleChange}
+      className={`w-full mt-1 rounded-lg ${errors.email ? 'border-red-500' : 'border-gray-300'} focus:ring-blue-500 focus:border-blue-500`}
+      placeholder="ejemplo@banco.com"
+    />
+    {errors.email && (
+      <p className="text-red-500 text-xs mt-1">{errors.email}</p>
+    )}
+  </div>
+   {/* Campo: Teléfono */}
+  <div className="w-full">
+    <Label htmlFor="phone" className="text-sm font-medium text-gray-700 flex items-center">
+      <Phone className="h-4 w-4 mr-2 text-gray-500" />
+      <span>Teléfono (opcional)</span>
+    </Label>
+    <Input
+      id="phone"
+      name="phone"
+      type="tel"
+      value={formData.phone}
+      onChange={handleChange}
+      className="w-full mt-1 rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500"
+      placeholder="+34 600 123 456"
+    />
+  </div>
+</div>
 
               <Button 
                 type="submit" 
