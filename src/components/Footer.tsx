@@ -42,8 +42,72 @@ const Footer = () => {
                   <Clock className="h-5 w-5 text-blue-400" />
                   <span className="text-sm text-gray-300">Soporte 24/7</span>
                 </div>
+                
               </div>
             </div>
+
+            <p className="text-gray-300 leading-relaxed max-w-md">
+              Redes Sociales
+               </p>
+              <div className="flex items-center space-x-3">
+        
+        <a 
+          href="https://twitter.com/consulbank"     
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="flex items-center justify-center h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 transition md:block"
+          aria-label="Twitter"
+        >
+          <img src="/images/x.svg" alt="Twitter" className="h-4 w-4 m-3" />
+        </a>
+
+        {/* LinkedIn - Ocultar en móvil */}
+        <a 
+          href="https://linkedin.com/company/consulbank"     
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="flex items-center justify-center h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 transition md:block"
+          aria-label="LinkedIn"
+        >
+          <img src="/images/linkedin.svg" alt="LinkedIn" className="h-4 w-4 m-3" />
+        </a>
+
+         {/* Facebook - Ocultar en móvil */}
+        <a 
+          href="https://facebook.com/consulbank"     
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="flex items-center justify-center h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 transition md:block"
+          aria-label="Facebook"
+        >
+          <img src="/images/facebook.svg" alt="Facebook" className="h-4 w-4 m-3" />
+        </a>
+		
+		{/* Instagram - Visible siempre */}
+        <a 
+          href="https://instagram.com/consulbank"     
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="flex items-center justify-center h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 transition"
+          aria-label="Instagram"
+        >
+          <img src="/images/instagram.svg" alt="Instagram" className="h-4 w-4" />
+        </a>
+
+        {/* WhatsApp - Visible siempre */}
+        <a 
+          href="https://wa.me/584143162574"     
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="flex items-center justify-center h-9 w-9 rounded-full bg-white/10 hover:bg-white/20 transition"
+          aria-label="WhatsApp"
+        >
+          <img src="/images/whatsapp.svg" alt="WhatsApp" className="h-4 w-4" />
+        </a>
+      </div>
+
+
+           
           </div>
 
           {/* Navigation Links */}
