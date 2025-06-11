@@ -90,8 +90,8 @@ const Footer = () => {
                 <div>
                   <p className="text-gray-300 text-sm font-medium">Oficina Principal</p>
                   <p className="text-gray-400 text-sm">
-                    Paseo de la Castellana, 123<br />
-                    28046 Madrid, España
+                    Callejon Machado, El Paraiso, Centro Profesional Oeste, Piso 8, Ofinas 81 y 83.<br />
+                    Caracas, Venezuela.
                   </p>
                 </div>
               </div>
@@ -99,8 +99,9 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400" />
                 <div>
-                  <p className="text-gray-300 text-sm font-medium">Teléfono</p>
-                  <p className="text-gray-400 text-sm">+34 900 123 456</p>
+                  <p className="text-gray-300 text-sm font-medium">Movil</p>
+                  <p className="text-gray-400 text-sm">+58 0414 316 2574</p>
+                  <p className="text-gray-400 text-sm">Contacto: Luis Rigual</p>
                 </div>
               </div>
 
