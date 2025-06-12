@@ -5,5 +5,20 @@
     "title": "Panel de Control",
     "users": "Usuarios"
   },
-  "footer": "Derechos reservados © {{year}}"
+  "footer": "Derechos reservados © {{year}}",
+
+  "tituloUnoHeroSection": "Revoluciona tus procesos de",
+  "tituloDosHeroSection": "Interconexión",
+  "tituloTresHeroSection": "con nuestro Cierre Centralizado",
+  "subtituloHeroSection": "Una tecnología de vanguardia para el procesamiento centralizado de vastas cantidades de transacciones, facilita la liquidación y compensación eficiente y segura de operaciones financieras entre diversos bancos y redes. Su aplicación principal radica en la gestión de transacciones de canales ATM, P2P y P2C a través de un sistema interbancario.",
+
+  "headerOneOne":"100% Seguro",
+  "headerOneTwo":"Informes en Tiempo Real",
+  "headerOneThree":"Multi-usuario",  
+
+  "headerTwoOne":"Solicitar Demo Gratuita",
+
+  "headerThreeOne":"Sin compromiso",
+  "headerThreeTwo":"Instalación en 30-60 días",
+  "headerThreeThree":"Soporte 24/7"
 }

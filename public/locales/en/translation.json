@@ -5,5 +5,21 @@
     "title": "Dashboard",
     "users": "Users"
   },
-  "footer": "All rights reserved © {{year}}"
+  "footer": "All rights reserved © {{year}}",
+
+  "tituloUnoHeroSection": "Revolutionize your processes of",
+  "tituloDosHeroSection": "Interconnection",
+  "tituloTresHeroSection": "with our Central Locking",
+  "tituloHeroSection": "Revolutionize your interconnection processes with our Centralized Locking",
+  "subtituloHeroSection": "A cutting-edge technology for the centralized processing of vast amounts of transactions, facilitating the efficient and secure settlement and clearing of financial transactions between various banks and networks. Its primary application lies in the management of ATM, P2P, and P2C channel transactions through an interbank system.",
+
+  "headerOneOne":"100% Safe",
+  "headerOneTwo":"Real-Time Reports",
+  "headerOneThree":"Multi-user" , 
+
+  "headerTwoOne":"Request a Free Demo",
+
+  "headerThreeOne":"No commitment",
+  "headerThreeTwo":"Installation in 30-60 days",
+  "headerThreeThree":"24/7 Support"
 }
