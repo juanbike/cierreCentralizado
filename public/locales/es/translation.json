@@ -20,5 +20,69 @@
 
   "headerThreeOne":"Sin compromiso",
   "headerThreeTwo":"Instalación en 30-60 días",
-  "headerThreeThree":"Soporte 24/7"
+  "headerThreeThree":"Soporte 24/7",
+
+  "headerFourOne":"70% Reducción de Tiempo",
+  "headerFourTwo":"99.9% Precisión de Informes",
+
+  "sectionTwoOne-------------": "----------------",
+  "titleSectionTwo": "¿Por qué los Bancos Necesitan Automatizar sus Procesos de Cierre?",
+  "subTitleSectionTwo": "Los métodos tradicionales de cierre centralizado generan ineficiencias críticas que impactan la operación diaria y el cumplimiento regulatorio.",
+
+  "columOneOneSectionTwo": "Problemas Actuales",
+
+  "columOneTwoSectionTwoTitle": "Pérdida de tiempo valioso",
+  "columOneTwoSectionTwoSubtitle": "Procesos manuales que consumen horas de trabajo especializado diariamente.",
+
+  "columOneThreeSectionTwoTitle": "Alto riesgo de error humano",
+  "columOneThreeSectionTwosubtitle": "Manipulación manual de datos que genera inconsistencias y errores costosos.",
+
+  "columOneFourSectionTwoTitle": "Dificultad para cumplir con regulaciones",
+  "columOneFourSectionTwoSubtitle": "Complejidad para generar reportes precisos que cumplan normativas locales e internacionales.",
+
+  "columFiveSectionTwoTitle": "Informes lentos e imprecisos",
+  "columFiveSectionTwoSubtitle": "Generación tardía de reportes que afecta la toma de decisiones estratégicas.",
+
+   "sectionTwoTwo-------------": "----------------",
+
+   "titleSectionTwoTwo": "Nuestra Solución",
+   
+   "columTwoOneSectionTwoTitle": "Sistema de Conciliaciones Electrónicas",
+   "columTwoOneSectionTwoSubTile": "Automatiza completamente desde la extracción de datos hasta el análisis final, con integración directa con ambiente IBM Power I sin necesidad de infraestructura adicional.",
+   
+   "columTwoTwoSectionTwoTitle": "Automatización Completa",
+   "columTwoTwoSectionTwoSubTile": "Eliminación de procesos manuales y reducción del 70% en tiempo de operación",
+
+   "columTwoThreeSectionTwoTitle": "Integración Nativa IBM Power I",
+   "columTwoThreeSectionTwoSubTile": "Funciona directamente en su infraestructura existente sin cambios",
+   
+   "columTwoFourSectionTwoTitle": "Cumplimiento Regulatorio",
+   "columTwoFourSectionTwoSubTile": "Generación automática de reportes que cumplen normativas bancarias",
+
+   "columTwoFiveSectionTwoTitle": "Soluciones Especializadas",
+   "columTwoFiveSectionTwoSubTile": "Somos especialistas en una amplia gama de sistemas bancarios centrales, incluyendo IBS, Paradise y SIAF.",
+
+   "columTwoSixSectionTwoTitle": "Integración de switches",
+   "columTwoSixSectionTwoSubTile": "Contamos con una extensa trayectoria en la conexión con diversos switches transaccionales como Postilion, Catus y Catsw.",
+
+ "sectionTwoThree-------------": "----------------",
+
+  "sectionTwoThreeTitle": "Impacto Económico",
+  
+  "sectionTwoThreeSubtitleOne": "Costo anual promedio de errores",
+  "sectionTwoThreeSubtitleTwo": "Tiempo semanal en procesos manuales",
+
+  "sectionTwoThreeTitletwo": "Beneficios Medibles",
+  
+  "sectionTwoThreeSubtitleOneTwo": "Reducción de tiempo",
+  "sectionTwoThreeSubtitleTwoTwo": "Precisión en reportes",
+
+  "sectionTwoFour-------------": "----------------",
+
+  "titleSectionTwoFour": "Tecnología Probada en el Sector Bancario",
+  "subtitleSectionTwoFour": "Más de 50 bancos confían en nuestro sistema para optimizar sus operaciones de cierre centralizado"
+
+
+
+   
 }

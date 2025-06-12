@@ -21,5 +21,67 @@
 
   "headerThreeOne":"No commitment",
   "headerThreeTwo":"Installation in 30-60 days",
-  "headerThreeThree":"24/7 Support"
+  "headerThreeThree":"24/7 Support",
+
+  "headerFourOne":"70% Time Reduction",
+  "headerFourTwo":"99.9% Reporting Accuracy",
+
+  "sectionTwoOne------": "----------------",
+  "titleSectionTwo": "Why Banks Need to Automate Their Closing Processes?",
+  "subTitleSectionTwo": "The traditional methods of centralized closing generate critical inefficiencies that impact daily operation and regulatory compliance.",
+
+   "columOneOneSectionTwo": "Current Problems",
+
+  "columOneTwoSectionTwoTitle": "Loss of valuable time",
+  "columOneTwoSectionTwoSubtitle": "Manual processes that consume hours of specialized work daily.",
+
+  "columOneThreeSectionTwoTitle": "High risk of human error",
+  "columOneThreeSectionTwosubtitle": "Manual data manipulation leads to inconsistencies and costly errors.",
+
+  "columOneFourSectionTwoTitle": "Difficulty in complying with regulations",
+  "columOneFourSectionTwoSubtitle": "Complexity in generating accurate reports that comply with local and international regulations.",
+
+  "columFiveSectionTwoTitle": "Slow and inaccurate reporting",
+  "columFiveSectionTwoSubtitle": "Late generation of reports that affects strategic decision-making.",
+
+  "sectionTwoTwo-------------": "----------------",
+
+   "titleSectionTwoTwo": "Our Solution",
+   
+   "columTwoOneSectionTwoTitle": "Electronic Reconciliation System",
+   "columTwoOneSectionTwoSubTile": "Fully automate everything from data extraction to final analysis, with direct integration into the IBM Power I environment without the need for additional infrastructure.",
+   
+   "columTwoTwoSectionTwoTitle": "Complete Automation",
+   "columTwoTwoSectionTwoSubTile": "Elimination of manual processes and 70% reduction in operating time",
+
+   "columTwoThreeSectionTwoTitle": "Native IBM Power I Integration",
+   "columTwoThreeSectionTwoSubTile": "Works directly on your existing infrastructure without changes",
+   
+   "columTwoFourSectionTwoTitle": "Regulatory Compliance",
+   "columTwoFourSectionTwoSubTile": "Automatic generation of reports that comply with banking regulations",
+
+   "columTwoFiveSectionTwoTitle": "Specialized Solutions",
+   "columTwoFiveSectionTwoSubTile": "We specialize in a wide range of core banking systems, including IBS, Paradise, and SIAF.",
+
+   "columTwoSixSectionTwoTitle": "Switch integration",
+   "columTwoSixSectionTwoSubTile": "We have extensive experience connecting with various transactional switches such as Postilion, Catus, and Catsw.",
+
+   "sectionTwoThree-------------": "----------------",
+
+  "sectionTwoThreeTitle": "Economic Impact",
+  
+  "sectionTwoThreeSubtitleOne": "Average annual cost of errors",
+  "sectionTwoThreeSubtitleTwo": "Weekly time spent on manual processes",
+
+  "sectionTwoThreeTitletwo": "Measurable Benefits",
+  
+  "sectionTwoThreeSubtitleOneTwo": "Reduction of time",
+  "sectionTwoThreeSubtitleTwoTwo": "Accuracy in reporting",
+
+  "sectionTwoFour-------------": "----------------",
+
+  "titleSectionTwoFour": "Technology Proven in the Banking Sector",
+  "subtitleSectionTwoFour": "More than 50 banks trust our system to optimize their centralized closing operations."
+
+
 }
