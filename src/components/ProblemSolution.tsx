@@ -1,16 +1,24 @@
 import { Clock, AlertTriangle, TrendingDown, FileText, CheckCircle, Zap, Shield, BarChart  } from "lucide-react"
+import { useTranslation } from 'react-i18next';
+
 
 const ProblemSolution = () => {
+  const { t, i18n } = useTranslation(); // Initialize translation hook
+
+  const handleClick = () => {
+    // Ejemplo de cómo cambiar el idioma desde cualquier componente
+    i18n.changeLanguage(i18n.language === 'es' ? 'en' : 'es');
+  };
+
   return (
     <section className="py-20 bg-white" id="problema-solucion">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            ¿Por qué los Bancos Necesitan Automatizar sus Procesos de Cierre?
+            {t('titleSectionTwo')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Los métodos tradicionales de cierre centralizado generan ineficiencias críticas 
-            que impactan la operación diaria y el cumplimiento regulatorio.
+            {t('subTitleSectionTwo')}
           </p>
         </div>
 
@@ -20,7 +28,7 @@ const ProblemSolution = () => {
             <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg">
               <h3 className="text-2xl font-bold text-red-800 mb-6 flex items-center">
                 <AlertTriangle className="h-7 w-7 mr-3" />
-                Problemas Actuales
+                 {t('columOneOneSectionTwo')}
               </h3>
               
               <div className="space-y-6">
@@ -29,9 +37,9 @@ const ProblemSolution = () => {
                     <Clock className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-red-800">✅ Pérdida de tiempo valioso</h4>
+                    <h4 className="font-semibold text-red-800">✅ {t('columOneTwoSectionTwoTitle')}</h4>
                     <p className="text-red-700 text-sm mt-1">
-                      Procesos manuales que consumen horas de trabajo especializado diariamente
+                      {t('columOneTwoSectionTwoSubtitle')}
                     </p>
                   </div>
                 </div>
@@ -41,9 +49,9 @@ const ProblemSolution = () => {
                     <AlertTriangle className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-red-800">❌ Alto riesgo de error humano</h4>
+                    <h4 className="font-semibold text-red-800">❌  {t('columOneThreeSectionTwoTitle')}</h4>
                     <p className="text-red-700 text-sm mt-1">
-                      Manipulación manual de datos que genera inconsistencias y errores costosos
+                     {t('columOneThreeSectionTwosubtitle')}
                     </p>
                   </div>
                 </div>
@@ -53,9 +61,9 @@ const ProblemSolution = () => {
                     <TrendingDown className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-red-800">⏳ Dificultad para cumplir con regulaciones</h4>
+                    <h4 className="font-semibold text-red-800">⏳ {t('columOneFourSectionTwoTitle')}</h4>
                     <p className="text-red-700 text-sm mt-1">
-                      Complejidad para generar reportes precisos que cumplan normativas locales e internacionales
+                      {t('columOneFourSectionTwoSubtitle')}
                     </p>
                   </div>
                 </div>
@@ -65,9 +73,9 @@ const ProblemSolution = () => {
                     <FileText className="h-5 w-5 text-red-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-red-800">📉 Informes lentos e imprecisos</h4>
+                    <h4 className="font-semibold text-red-800">📉 {t('columFiveSectionTwoTitle')}</h4>
                     <p className="text-red-700 text-sm mt-1">
-                      Generación tardía de reportes que afecta la toma de decisiones estratégicas
+                      {t('columFiveSectionTwoSubtitle')}
                     </p>
                   </div>
                 </div>
@@ -75,15 +83,15 @@ const ProblemSolution = () => {
             </div>
 
             <div className="bg-gray-100 p-6 rounded-lg ">
-              <h4 className="font-bold text-gray-800 mb-11">Impacto Económico</h4>
+              <h4 className="font-bold text-gray-800 mb-11">{t('sectionTwoThreeTitle')}</h4>
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div className="bg-white p-4 rounded">
                   <div className="text-2xl font-bold text-red-600">€250K</div>
-                  <div className="text-sm text-gray-600">Costo anual promedio de errores</div>
+                  <div className="text-sm text-gray-600">{t('sectionTwoThreeSubtitleOne')}</div>
                 </div>
                 <div className="bg-white p-4 rounded">
                   <div className="text-2xl font-bold text-red-600">40hrs</div>
-                  <div className="text-sm text-gray-600">Tiempo semanal en procesos manuales</div>
+                  <div className="text-sm text-gray-600">{t('sectionTwoThreeSubtitleTwo')}</div>
                 </div>
               </div>
             </div>
@@ -94,15 +102,14 @@ const ProblemSolution = () => {
             <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
               <h3 className="text-2xl font-bold text-green-800 mb-6 flex items-center">
                 <CheckCircle className="h-7 w-7 mr-3" />
-                Nuestra Solución
+               {t('titleSectionTwoTwo')}
               </h3>
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <h4 className="font-bold text-green-800 mb-3">Sistema de Conciliaciones Electrónicas</h4>
+                  <h4 className="font-bold text-green-800 mb-3"> {t('columTwoOneSectionTwoTitle')}</h4>
                   <p className="text-green-700 text-sm leading-relaxed">
-                    Automatiza completamente desde la extracción de datos hasta el análisis final, 
-                    con integración directa con ambiente AS/400 sin necesidad de infraestructura adicional.
+                    {t('columTwoOneSectionTwoSubTile')}
                   </p>
                 </div>
 
@@ -112,9 +119,9 @@ const ProblemSolution = () => {
                       <Zap className="h-5 w-5 text-green-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-green-800">Automatización Completa</h4>
+                      <h4 className="font-semibold text-green-800">{t('columTwoTwoSectionTwoTitle')}</h4>
                       <p className="text-green-700 text-sm mt-1">
-                        Eliminación de procesos manuales y reducción del 70% en tiempo de operación
+                        {t('columTwoTwoSectionTwoSubTile')}
                       </p>
                     </div>
                   </div>
@@ -124,9 +131,9 @@ const ProblemSolution = () => {
                       <Shield className="h-5 w-5 text-green-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-green-800">Integración Nativa AS/400</h4>
+                      <h4 className="font-semibold text-green-800">{t('columTwoThreeSectionTwoTitle')}</h4>
                       <p className="text-green-700 text-sm mt-1">
-                        Funciona directamente en su infraestructura existente sin cambios
+                       {t('columTwoThreeSectionTwoSubTile')}
                       </p>
                     </div>
                   </div>
@@ -136,9 +143,9 @@ const ProblemSolution = () => {
                       <BarChart className="h-5 w-5 text-green-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-green-800">Cumplimiento Regulatorio</h4>
+                      <h4 className="font-semibold text-green-800">{t('columTwoFourSectionTwoTitle')}</h4>
                       <p className="text-green-700 text-sm mt-1">
-                        Generación automática de reportes que cumplen normativas bancarias
+                       {t('columTwoFourSectionTwoSubTile')}
                       </p>
                     </div>
                   </div>
@@ -148,9 +155,9 @@ const ProblemSolution = () => {
                       <Shield className="h-5 w-5 text-green-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-green-800"> Soluciones Especializadas</h4>
+                      <h4 className="font-semibold text-green-800">{t('columTwoFiveSectionTwoTitle')}</h4>
                       <p className="text-green-700 text-sm mt-1">
-                        Somos especialistas en una amplia gama de sistemas bancarios centrales, incluyendo IBS, Paradise y SIAF.
+                        {t('columTwoFiveSectionTwoSubTile')}
                       </p>
                     </div>
                   </div>
@@ -160,9 +167,9 @@ const ProblemSolution = () => {
                       <Zap className="h-5 w-5 text-green-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-green-800"> Integración de switches</h4>
+                      <h4 className="font-semibold text-green-800"> {t('columTwoSixSectionTwoTitle')}</h4>
                       <p className="text-green-700 text-sm mt-1">
-                        Contamos con una extensa trayectoria en la conexión con diversos switches transaccionales como Postilion, Catus y Catsw.
+                        {t('columTwoSixSectionTwoSubTile')}
                       </p>
                     </div>
                   </div>
@@ -173,15 +180,15 @@ const ProblemSolution = () => {
             </div>
 
             <div className="bg-blue-50 p-6 rounded-lg">
-              <h4 className="font-bold text-blue-800 mb-3">Beneficios Medibles</h4>
+              <h4 className="font-bold text-blue-800 mb-3">{t('sectionTwoThreeTitletwo')}</h4>
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div className="bg-white p-4 rounded">
                   <div className="text-2xl font-bold text-green-600">70%</div>
-                  <div className="text-sm text-gray-600">Reducción de tiempo</div>
+                  <div className="text-sm text-gray-600">{t('sectionTwoThreeSubtitleOneTwo')}</div>
                 </div>
                 <div className="bg-white p-4 rounded">
                   <div className="text-2xl font-bold text-green-600">99.9%</div>
-                  <div className="text-sm text-gray-600">Precisión en reportes</div>
+                  <div className="text-sm text-gray-600">{t('sectionTwoThreeSubtitleTwoTwo')}</div>
                 </div>
               </div>
             </div>
@@ -191,9 +198,9 @@ const ProblemSolution = () => {
         {/* Technology Showcase */}
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">Tecnología Probada en el Sector Bancario</h3>
+            <h3 className="text-2xl font-bold mb-4">{t('titleSectionTwoFour')}</h3>
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-              Más de 50 bancos confían en nuestro sistema para optimizar sus operaciones de cierre centralizado
+              {t('subtitleSectionTwoFour')}
             </p>
             <img 
               src="/images/fintech-interface.jpg" 

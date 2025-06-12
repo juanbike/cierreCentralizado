@@ -1,11 +1,22 @@
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Shield, BarChart3, Users } from "lucide-react"
+import { useTranslation } from 'react-i18next';
+
+
 
 const HeroSection = () => {
+  const { t, i18n } = useTranslation(); // Initialize translation hook
+  // Function to scroll to the contact section    
   const scrollToContact = () => {
     const contactSection = document.getElementById('contact')
     contactSection?.scrollIntoView({ behavior: 'smooth' })
+  
   }
+
+  const handleClick = () => {
+    // Ejemplo de cómo cambiar el idioma desde cualquier componente
+    i18n.changeLanguage(i18n.language === 'es' ? 'en' : 'es');
+  };
 
   return (
     <section className="relative min-h-screen flex items-center bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900">
@@ -111,27 +122,31 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight space-y-4">
-                                Revoluciona tus procesos de
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300"> Interconexión</span> 
-                <br />con nuestro Cierre Centralizado
+                                {t('tituloUnoHeroSection')}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300"> {t('tituloDosHeroSection')}</span> 
+                <br />{t('tituloTresHeroSection')}
               </h1>
               
               <p className="text-xl text-blue-100 leading-relaxed max-w-xl">
-                Una tecnología de vanguardia para el procesamiento centralizado de vastas cantidades de transacciones, facilita la liquidación y compensación eficiente y segura de operaciones financieras entre diversos bancos y redes. Su aplicación principal radica en la gestión de transacciones de canales ATM, P2P y P2C a través de un sistema interbancario.
+                {t('subtituloHeroSection')}
               </p>
+
+              <button onClick={handleClick}>
+        {t('boton_cambiar_idioma')} {/* Traduce el texto del botón */}
+      </button>
 
               <div className="flex flex-wrap gap-4 text-sm text-blue-200">
                 <div className="flex items-center space-x-2">
                   <Shield className="h-4 w-4" />
-                  <span>100% Seguro</span>
+                  <span>{t('headerOneOne')}</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <BarChart3 className="h-4 w-4" />
-                  <span>Informes en Tiempo Real</span>
+                  <span>{t('headerOneTwo')}</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Users className="h-4 w-4" />
-                  <span>Multi-usuario</span>
+                  <span>{t('headerOneThree')}</span>
                 </div>
               </div>
             </div>
@@ -142,12 +157,12 @@ const HeroSection = () => {
                 size="lg" 
                 className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
               >
-                Solicitar Demo Gratuita
+                {t('headerTwoOne')}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               
               <p className="text-blue-200 text-sm">
-                ✅ Sin compromiso • ✅ Instalación en 30-60 días • ✅ Soporte 24/7
+                ✅ {t('headerThreeOne')} • ✅ {t('headerThreeTwo')} • ✅ {t('headerThreeThree')}
               </p>
             </div>
           </div>
@@ -163,11 +178,11 @@ const HeroSection = () => {
               
               {/* Overlay Stats */}
               <div className="absolute -top-4 -right-4 bg-green-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
-                70% Reducción de Tiempo
+               {t('headerFourOne')}
               </div>
               
               <div className="absolute -bottom-4 -left-4 bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
-                99.9% Precisión
+                {t('headerFourTwo')}
               </div>
             </div>
 

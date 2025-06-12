@@ -3,8 +3,19 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { CheckCircle, Send, User, Building, Mail, Phone } from "lucide-react"
+import { useTranslation } from 'react-i18next';
+
+
 
 const ContactForm = () => {
+  const { t, i18n } = useTranslation(); // Initialize translation hook
+   const handleClick = () => {
+    // Ejemplo de cómo cambiar el idioma desde cualquier componente
+    i18n.changeLanguage(i18n.language === 'es' ? 'en' : 'es');
+  };
+
+
+
   const [formData, setFormData] = useState({
     fullName: '',
     company: '',
@@ -105,11 +116,10 @@ const ContactForm = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                Descubre cómo podemos ayudarte
+                {t('contactTitle')}
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Solicite una demostración personalizada de nuestro Sistema de Cierre Centralizado 
-                y descubra cómo puede transformar las operaciones de su banco.
+                {t('contactSubTitle')}
               </p>
             </div>
 
@@ -119,9 +129,9 @@ const ContactForm = () => {
                   <CheckCircle className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">Demo Personalizada</h3>
+                  <h3 className="font-semibold text-gray-900">{t('contactTitleOne')}</h3>
                   <p className="text-gray-600 text-sm">
-                    Presentación adaptada a las necesidades específicas de su institución bancaria
+                    {t('ontactSubTitleOne')}
                   </p>
                 </div>
               </div>
@@ -131,9 +141,9 @@ const ContactForm = () => {
                   <CheckCircle className="h-6 w-6 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">Análisis Sin Costo</h3>
+                  <h3 className="font-semibold text-gray-900">{t('contactTitleTwo')}</h3>
                   <p className="text-gray-600 text-sm">
-                    Evaluación gratuita de sus procesos actuales y oportunidades de mejora
+                    {t('contactSubTitleTwo')}
                   </p>
                 </div>
               </div>
@@ -143,22 +153,22 @@ const ContactForm = () => {
                   <CheckCircle className="h-6 w-6 text-purple-600" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900">Propuesta Técnica</h3>
+                  <h3 className="font-semibold text-gray-900">{t('contactTitleThree')}</h3>
                   <p className="text-gray-600 text-sm">
-                    Plan de implementación detallado con cronograma y especificaciones técnicas
+                    {t('contactSubTitleThree')}
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="bg-blue-50 rounded-lg p-6">
-              <h3 className="font-bold text-blue-900 mb-3">¿Por qué elegirnos?</h3>
+              <h3 className="font-bold text-blue-900 mb-3"> {t('chooseTitle')}</h3>
               <div className="space-y-2 text-sm text-blue-800">
-                <div>🏆 +15 años de experiencia en sistemas bancarios</div>
-                <div>🔧 Soporte técnico especializado 24/7</div>
-                <div>⚡ Implementación rápida (30-60 días)</div>
-                <div>✅ Cumplimiento garantizado con normativas</div>
-                <div>🚀 ROI comprobado en menos de 6 meses</div>
+                <div>🏆  {t('chooseSubTitleOne')}</div>
+                <div>🔧  {t('chooseSubTitleTwo')}</div>
+                <div>⚡  {t('chooseSubTitleThree')}</div>
+                <div>✅  {t('chooseSubTitleFour')}</div>
+                <div>🚀  {t('chooseSubTitleFive')}</div>
               </div>
             </div>
           </div>
@@ -168,10 +178,10 @@ const ContactForm = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                  Solicitar Información
+                  {t('chooseSubTitleSix')}
                 </h3>
                 <p className="text-gray-600">
-                  Complete el formulario y nos pondremos en contacto inmediatamente
+                  {t('chooseSubTitleSeven')}
                 </p>
               </div>
 
@@ -180,7 +190,7 @@ const ContactForm = () => {
   <div className="w-full">
     <Label htmlFor="fullName" className="text-sm font-medium text-gray-700 flex items-center">
       <User className="h-4 w-4 mr-2 text-gray-500" />
-      <span>Nombre completo *</span>
+      <span>{t('contactFormL1')} *</span>
     </Label>
     <Input
       id="fullName"
@@ -199,7 +209,7 @@ const ContactForm = () => {
   <div className="w-full">
     <Label htmlFor="company" className="text-sm font-medium text-gray-700 flex items-center">
       <Building className="h-4 w-4 mr-2 text-gray-500" />
-      <span>Empresa *</span>
+      <span>{t('contactFormL2')} </span>
     </Label>
     <Input
       id="company"
@@ -218,7 +228,7 @@ const ContactForm = () => {
   <div className="w-full">
     <Label htmlFor="email" className="text-sm font-medium text-gray-700 flex items-center">
       <Mail className="h-4 w-4 mr-2 text-gray-500" />
-      <span>Correo electrónico *</span>
+      <span>{t('contactFormL3')}</span>
     </Label>
     <Input
       id="email"
@@ -237,7 +247,7 @@ const ContactForm = () => {
   <div className="w-full">
     <Label htmlFor="phone" className="text-sm font-medium text-gray-700 flex items-center">
       <Phone className="h-4 w-4 mr-2 text-gray-500" />
-      <span>Teléfono (opcional)</span>
+      <span>{t('contactFormL4')}</span>
     </Label>
     <Input
       id="phone"
@@ -259,19 +269,18 @@ const ContactForm = () => {
                 {isLoading ? (
                   <div className="flex items-center">
                     <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
-                    Enviando...
+                    {t('contactFormL5')}
                   </div>
                 ) : (
                   <div className="flex items-center">
                     <Send className="h-5 w-5 mr-2" />
-                    Enviar información y agendar demo
+                    {t('contactFormL6')}
                   </div>
                 )}
               </Button>
 
               <p className="text-xs text-gray-500 text-center">
-                Al enviar este formulario, acepta ser contactado por nuestro equipo comercial. 
-                Sus datos están protegidos según nuestra política de privacidad.
+                {t('contactFormL7')}
               </p>
             </form>
           </div>

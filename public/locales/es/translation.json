@@ -5,5 +5,223 @@
     "title": "Panel de Control",
     "users": "Usuarios"
   },
-  "footer": "Derechos reservados © {{year}}"
+  "footer": "Derechos reservados © {{year}}",
+
+  "tituloUnoHeroSection": "Revoluciona tus procesos de",
+  "tituloDosHeroSection": "Interconexión",
+  "tituloTresHeroSection": "con nuestro Cierre Centralizado",
+  "subtituloHeroSection": "Una tecnología de vanguardia para el procesamiento centralizado de vastas cantidades de transacciones, facilita la liquidación y compensación eficiente y segura de operaciones financieras entre diversos bancos y redes. Su aplicación principal radica en la gestión de transacciones de canales ATM, P2P y P2C a través de un sistema interbancario.",
+
+  "headerOneOne":"100% Seguro",
+  "headerOneTwo":"Informes en Tiempo Real",
+  "headerOneThree":"Multi-usuario",  
+
+  "headerTwoOne":"Solicitar Demo Gratuita",
+
+  "headerThreeOne":"Sin compromiso",
+  "headerThreeTwo":"Instalación en 30-60 días",
+  "headerThreeThree":"Soporte 24/7",
+
+  "headerFourOne":"70% Reducción de Tiempo",
+  "headerFourTwo":"99.9% Precisión de Informes",
+
+  "sectionTwoOne-------------": "----------------",
+  "titleSectionTwo": "¿Por qué los Bancos Necesitan Automatizar sus Procesos de Cierre?",
+  "subTitleSectionTwo": "Los métodos tradicionales de cierre centralizado generan ineficiencias críticas que impactan la operación diaria y el cumplimiento regulatorio.",
+
+  "columOneOneSectionTwo": "Problemas Actuales",
+
+  "columOneTwoSectionTwoTitle": "Pérdida de tiempo valioso",
+  "columOneTwoSectionTwoSubtitle": "Procesos manuales que consumen horas de trabajo especializado diariamente.",
+
+  "columOneThreeSectionTwoTitle": "Alto riesgo de error humano",
+  "columOneThreeSectionTwosubtitle": "Manipulación manual de datos que genera inconsistencias y errores costosos.",
+
+  "columOneFourSectionTwoTitle": "Dificultad para cumplir con regulaciones",
+  "columOneFourSectionTwoSubtitle": "Complejidad para generar reportes precisos que cumplan normativas locales e internacionales.",
+
+  "columFiveSectionTwoTitle": "Informes lentos e imprecisos",
+  "columFiveSectionTwoSubtitle": "Generación tardía de reportes que afecta la toma de decisiones estratégicas.",
+
+   "sectionTwoTwo-------------": "----------------",
+
+   "titleSectionTwoTwo": "Nuestra Solución",
+   
+   "columTwoOneSectionTwoTitle": "Sistema de Conciliaciones Electrónicas",
+   "columTwoOneSectionTwoSubTile": "Automatiza completamente desde la extracción de datos hasta el análisis final, con integración directa con ambiente IBM Power I sin necesidad de infraestructura adicional.",
+   
+   "columTwoTwoSectionTwoTitle": "Automatización Completa",
+   "columTwoTwoSectionTwoSubTile": "Eliminación de procesos manuales y reducción del 70% en tiempo de operación",
+
+   "columTwoThreeSectionTwoTitle": "Integración Nativa IBM Power I",
+   "columTwoThreeSectionTwoSubTile": "Funciona directamente en su infraestructura existente sin cambios",
+   
+   "columTwoFourSectionTwoTitle": "Cumplimiento Regulatorio",
+   "columTwoFourSectionTwoSubTile": "Generación automática de reportes que cumplen normativas bancarias",
+
+   "columTwoFiveSectionTwoTitle": "Soluciones Especializadas",
+   "columTwoFiveSectionTwoSubTile": "Somos especialistas en una amplia gama de sistemas bancarios centrales, incluyendo IBS, Paradise y SIAF.",
+
+   "columTwoSixSectionTwoTitle": "Integración de switches",
+   "columTwoSixSectionTwoSubTile": "Contamos con una extensa trayectoria en la conexión con diversos switches transaccionales como Postilion, Catus y Catsw.",
+
+ "sectionTwoThree-------------": "----------------",
+
+  "sectionTwoThreeTitle": "Impacto Económico",
+  
+  "sectionTwoThreeSubtitleOne": "Costo anual promedio de errores",
+  "sectionTwoThreeSubtitleTwo": "Tiempo semanal en procesos manuales",
+
+  "sectionTwoThreeTitletwo": "Beneficios Medibles",
+  
+  "sectionTwoThreeSubtitleOneTwo": "Reducción de tiempo",
+  "sectionTwoThreeSubtitleTwoTwo": "Precisión en reportes",
+
+  "sectionTwoFour-------------": "----------------",
+
+  "titleSectionTwoFour": "Tecnología Probada en el Sector Bancario",
+  "subtitleSectionTwoFour": "Más de 50 bancos confían en nuestro sistema para optimizar sus operaciones de cierre centralizado",
+
+
+  "keyFeactures------":"----------------",
+
+  "features": {
+    "title": "Características principales",
+    "subtitle": "Descubra las principales características que hacen que nuestra solución sea única y potente.",
+    "feature1": {
+      "title": "💾 Integración nativa con sistemas IBM Power I",
+      "description": "Funciona directamente en su infraestructura existente sin migración de datos ni cambios en su entorno actual."
+    },
+    "feature2": {
+      "title": "📋 Generación automática de informes detallados y exportables",
+      "description": "Informes completos en múltiples formatos (PDF, Excel, XML) compatibles con las regulaciones bancarias locales e internacionales."
+    },
+    "feature3": {
+      "title": "🛡️ Cumplimiento de la Normativa Bancaria y Auditorías",
+      "description": "Diseñado para cumplir con las regulaciones financieras, incluida la trazabilidad completa y registros de auditoría detallados."
+    },
+    "feature4": {
+      "title": "👥 Acceso seguro basado en roles para múltiples usuarios",
+      "description": "Sistema de permisos granular que permite definir roles específicos para diferentes niveles de acceso y responsabilidades."
+    },
+    "feature5": {
+      "title": "📊 Panel de control intuitivo con indicadores clave en tiempo real",
+      "description": "Monitoreo continuo de KPIs bancarios con alertas automáticas y visualización de datos en tiempo real para una toma de decisiones ágil."
+    },
+    "feature6": {
+      "title": "🔄 Interfaz fácil de usar para usuarios técnicos y no técnicos",
+      "description": "Diseño intuitivo que permite a cualquier usuario operar el sistema de forma eficiente, independientemente de su nivel técnico."
+    }
+  },
+
+  "Cutting-edgeTechnology------":"----------------",
+
+  "Cutting-edgetechnologyTitle":"Tecnología de Vanguardia",
+
+  "Cutting-edgetechnologyTitleOne":"Procesamiento en Tiempo Real",
+  "Cutting-edgetechnologySubTitleOne":"Actualización instantánea de datos y generación de reportes sin demoras",
+
+
+  "Cutting-edgetechnologyTitleTwo":"Backup Automático",
+  "Cutting-edgetechnologySubTitleTwo":"Respaldo continuo de información crítica con recuperación instantánea",
+
+  "Cutting-edgetechnologyTitleThree":"Escalabilidad Enterprise",
+  "Cutting-edgetechnologySubTitleThree":"Diseñado para crecer con su institución sin límites de transacciones",
+
+  "Cutting-edgetechnologyTitleFour":"APIs de Integración",
+  "Cutting-edgetechnologySubTitleFour":"Conectividad con sistemas de terceros y plataformas externas",
+
+  "Cutting-edgetechnologyTitleFive":"Implementación Sin Interrupciones",
+  "Cutting-edgetechnologySubTitleFive":"Nuestro equipo especializado garantiza una transición suave sin afectar sus operaciones diarias. Implementación completa en 30-60 días.",
+
+  "AnalyticsAvanced------":"----------------",
+
+  "AnalyticsAvancedTitle": "Analytics Avanzados",
+
+  "AnalyticsAvancedTitleOne":"Métricas en Vivo",
+  "AnalyticsAvancedSubTitleOne":"Monitoreo continuo de volúmenes, tiempos de procesamiento y tasas de error",
+
+  "AnalyticsAvancedTitleTwo":"Alertas Inteligentes",
+  "AnalyticsAvancedSubTitleTwo":"Notificaciones automáticas ante discrepancias o situaciones que requieren atención",
+
+  "AnalyticsAvancedTitleThree":"Reportes Personalizados",
+  "AnalyticsAvancedSubTitleThree":"Generación de informes específicos según las necesidades de cada departamento",
+
+  "Testimonial------":"----------------",
+  
+  "TestimonialTitleOne":"Desde que implementamos este sistema de cierre centralizado, logramos reducir en un",
+  "TestimonialTitleTwo":"70% el tiempo",
+   "TestimonialTitleThree":"destinado a estos procesos y mejoramos la",
+   "TestimonialTitleFour":"precisión de nuestros informes regulatorios",
+
+   "TestimonialSubTitleFive":"Gerente de Operaciones",
+    "TestimonialSubTitleSix":"Banco Regional S.A.",
+
+    "Result-----":"----------------",
+
+    "ResultTitle":"Resultados Obtenidos:",
+    "ResultOne":"Reducción de tiempo",
+    "ResultTwo":"Precisión de informes",
+    "ResultThree":"Ahorro anual",
+    "ResultFour":"Disponibilidad",
+
+    "ImplementationTitle":"Implementación Exitosa",
+    "ImplementationOne":"Caso de Éxito",
+    "ImplementationTwo":"Banco Regional S.A.",
+    "ImplementationThree":"150+ empleados",
+    "ImplementationFour":"50,000+ transacciones diarias",
+    "ImplementationFive":"Implementación: 45 días",
+    "ImplementationSix":"IROI: 6 meses",
+
+   "SuccessStories":"----------------", 
+   
+   "SuccessStoriesTitleOne":"Reducción de errores manuales",
+   "SuccessStoriesTitleOneTwo":"Banco Internacional Norte",
+
+   "SuccessStoriesTitleTwoOne":"Tiempo de implementación",
+   "SuccessStoriesTitleTwoOneTwo":"Banco Central Regional",
+
+   "SuccessStoriesTitleThreeOne":"Ahorro anual promedio",
+   "SuccessStoriesTitleThreeOneTwo":"Banco Empresarial Sur",
+
+   "contact":"----------------",
+   "contactTitle": "Descubre cómo podemos ayudarte",
+   "contactSubTitle": "Solicite una demostración personalizada de nuestro Sistema de Cierre Centralizado y descubra cómo puede transformar las operaciones de su banco.",
+
+   "contactTitleOne":"Demo Personalizada",
+   "contactSubTitleOne":"Presentación adaptada a las necesidades específicas de su institución bancaria",
+
+   "contactTitleTwo":"Análisis Sin Costo",
+   "contactSubTitleTwo":"Evaluación gratuita de sus procesos actuales y oportunidades de mejora",
+
+   "contactTitleThree":"Propuesta Técnica",
+   "contactSubTitleThree":"Plan de implementación detallado con cronograma y especificaciones técnicas",
+
+
+
+   "choose":"----------------",
+    "chooseTitle"        : "Por qué elegirnos",
+    "chooseSubTitleOne"  : "+15 años de experiencia en sistemas bancarios",
+    "chooseSubTitleTwo"  : "Soporte técnico especializado 24/7",
+    "chooseSubTitleThree": "Implementación rápida (30-60 días)",
+    "chooseSubTitleFour" : "Cumplimiento garantizado con normativas",
+    "chooseSubTitleFive" : "ROI comprobado en menos de 6 meses",
+    "chooseSubTitleSix"  : " Solicitar Información",
+    "chooseSubTitleSeven": "Complete el formulario y nos pondremos en contacto inmediatamente",
+
+    "contactForm":"----------------",
+    "contactFormL1":"Nombre completo *",
+    "contactFormL2":"Empresa *",
+    "contactFormL3":"Correo electrónico *",
+    "contactFormL4":"Teléfono (opcional)",
+    "contactFormL5":" Enviando...",
+    "contactFormL6":" Enviar información y agendar demo",
+    "contactFormL7":" Al enviar este formulario, acepta ser contactado por nuestro equipo comercial.Sus datos están protegidos según nuestra política de privacidad."
+    
+  
 }
+
+
+
+    
+
